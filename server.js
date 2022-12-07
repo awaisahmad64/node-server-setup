@@ -5,7 +5,7 @@ const homepage = fs.readFileSync('./index.html');
 const about = fs.readFileSync('about.html');
 const contact = fs.readFileSync('contact.html');
 const error = fs.readFileSync('error.html');
-const PORT = 2000;
+const PORT = 3505;
 const localHost = 'localhost';
 const server = http.createServer((req, res) => {
   if (req.url === '/') {
