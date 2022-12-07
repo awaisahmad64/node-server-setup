@@ -1,0 +1,11 @@
+body {
+  background: rgb(216, 18, 150);
+  color: white;
+  height: 100vh;
+  max-width: 100%;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
